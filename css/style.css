@@ -14,7 +14,7 @@ body{
     color: rgb(13, 19, 68);
     text-align: center;
 }
-
+/*  quiz page  */
 form{
     margin-top: 40px;
 }
@@ -31,7 +31,6 @@ button{
     font-size: 23px;
     cursor: pointer;
 }
-/* ===== NAVBAR ===== */
 
 .navbar{
     background-color: #18139f; /* blue */
@@ -44,13 +43,11 @@ button{
     padding: 40px 30px;
 }
 
-/* left title */
 .nav-title{
     font-size: 30px;
     font-weight: bold;
 }
 
-/* right links */
 .nav-links a{
     color: white;
     text-decoration: none;
@@ -58,7 +55,6 @@ button{
     font-size: 30px;
 }
 
-/* hover effect */
 .nav-links a:hover{
     text-decoration: underline;
 }
@@ -69,7 +65,7 @@ button{
     cursor: pointer;
      width: 220px;
     height: 220px;
-    object-fit: cover;   /* VERY IMPORTANT */
+    object-fit: cover;   
     border-radius: 10px;
 
     transition: transform 0.3s ease;
@@ -115,7 +111,7 @@ button{
 }
 
 .hero{
-    background-image: url("../images/headerbg.png"); /* your image */
+    background-image: url("../images/headerbg.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,7 +133,7 @@ section{
     margin-bottom: 60px;
 }
 
-/* ===== TOP ARROW NAVIGATION ===== */
+/* TOP ARROW NAVIGATION  */
 
 .top-arrows{
     display: flex;
