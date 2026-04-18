@@ -15,6 +15,54 @@ body{
     text-align: center;
 }
 
+form{
+    margin-top: 40px;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+    font-size: 23px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 23px;
+    cursor: pointer;
+}
+/* ===== NAVBAR ===== */
+
+.navbar{
+    background-color: #18139f; /* blue */
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 30px;
+}
+
+/* left title */
+.nav-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* right links */
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+/* hover effect */
+.nav-links a:hover{
+    text-decoration: underline;
+}
+
 .gallery img{
     width: 220px;
     transition: transform 0.3s ease;
